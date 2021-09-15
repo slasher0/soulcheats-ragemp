@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="MinHook\src\buffer.c" />
+    <ClCompile Include="MinHook\src\hde\hde32.c" />
+    <ClCompile Include="MinHook\src\hde\hde64.c" />
+    <ClCompile Include="MinHook\src\hook.c" />
+    <ClCompile Include="MinHook\src\trampoline.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Functions\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Pools.cpp">
+      <Filter>Functions\Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Functions\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>Functions\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Functions\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mains.cpp">
+      <Filter>Functions\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCrack.cpp">
+      <Filter>Functions\AntiCrack</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Functions\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Functions\Logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="MinHook\src\buffer.h" />
+    <ClInclude Include="MinHook\src\hde\hde32.h" />
+    <ClInclude Include="MinHook\src\hde\hde64.h" />
+    <ClInclude Include="MinHook\src\hde\pstdint.h" />
+    <ClInclude Include="MinHook\src\hde\table32.h" />
+    <ClInclude Include="MinHook\src\hde\table64.h" />
+    <ClInclude Include="MinHook\src\trampoline.h" />
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Functions\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Pools.h">
+      <Filter>Functions\Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Functions\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Functions\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Functions\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h" />
+    <ClInclude Include="Mains.h">
+      <Filter>Functions\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCrack.h">
+      <Filter>Functions\AntiCrack</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Functions\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Functions\Logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8becaf2b-2680-4fd2-9faf-3cb57bd26a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{4a8f82f8-9ece-428d-92b3-a33bcc0db361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Aimbot">
+      <UniqueIdentifier>{6d1fcad6-5a4d-482d-b490-46dc28430521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Pools">
+      <UniqueIdentifier>{93c753b9-ab94-45a6-b975-f92c68155225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\ESP">
+      <UniqueIdentifier>{a8da0d96-9228-4711-8762-eb966fd13e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\SDK">
+      <UniqueIdentifier>{42e0859a-c4d8-452e-b3d1-f631664ec31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\GUI">
+      <UniqueIdentifier>{d518b58b-881f-4e7f-84cc-7318d4d3eec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Main">
+      <UniqueIdentifier>{c8e2717b-1101-4a0d-9e94-bb9ffcf44bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\AntiCrack">
+      <UniqueIdentifier>{1d6c4df0-3ddc-48da-98bc-2364f1a7f104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\FPS">
+      <UniqueIdentifier>{98a3b14c-d738-4b5c-b160-ab65883b7bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Logger">
+      <UniqueIdentifier>{686aafb6-de46-4011-8a3b-cc4d45b22fd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
